@@ -50,8 +50,8 @@ This project leverages multiple autonomous agents to plan a trip from scratch. E
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/trip-planner-ai.git
-cd trip-planner-ai
+git clone https://github.com/meathul/TravelPlanner_Agent.git
+cd TravelPlanner_Agent
 ```
 
 ### 2. Install Dependencies
@@ -64,18 +64,19 @@ poetry install
 pip install -r requirements.txt
 ```
 
-### 3. Set up OpenAI API Keys
+### 3. Set up OpenAI & SERPER API Keys
 
-Export your OpenAI API key as an environment variable:
+Export your OpenAI API key and Serper API key as an environment variable:
 
 ```bash
 export OPENAI_API_KEY=your_key_here
+export SERPER_API_KEY=ypur_key_here
 ```
 
 ### 4. Run the Workflow
 
 ```bash
-python run_trip_planner.py
+python main.py
 ```
 
 ---
